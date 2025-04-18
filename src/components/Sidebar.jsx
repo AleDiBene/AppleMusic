@@ -1,9 +1,13 @@
 import { Nav, Form, InputGroup } from "react-bootstrap";
 import { HouseFill, Search, Broadcast, Grid } from "react-bootstrap-icons";
+import "../App.css";
 
 function Sidebar() {
   return (
-    <Nav defaultActiveKey="/home" className="flex-column">
+    <Nav
+      defaultActiveKey="/home"
+      className="flex-column bg-dark text-white vh-100 p-3"
+    >
       <img
         src="src/assets/music.svg"
         className="py-3 img-fluid align-self-start logo-white w-50"

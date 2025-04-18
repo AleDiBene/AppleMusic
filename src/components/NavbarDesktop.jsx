@@ -36,9 +36,8 @@ function NavbarDesktop() {
             width="20"
             height="20"
             fill="currentColor"
-            class="bi bi-volume-up"
+            className="bi bi-volume-up m-2"
             viewBox="0 0 16 16"
-            className="m-2"
           >
             <path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z" />
             <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z" />

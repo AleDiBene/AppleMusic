@@ -1,17 +1,31 @@
-import { ProgressBar } from "react-bootstrap";
+import React from "react";
 
-function Player({ position }) {
-  const isTop = position === "top";
-
+function MusicPlayer() {
   return (
-    <div className={`text-white p-2 ${isTop ? "" : "border-top"}`}>
-      <div className="d-flex justify-content-between align-items-center">
-        <div>🎵 Brano in riproduzione</div>
-        <div>⏯️</div>
+    <div className="music-player bg-dark rounded-pill py-2 px-3 d-flex align-items-center">
+      <div className="album-art rounded me-3 d-flex justify-content-center align-items-center">
+        <div style={{ fontSize: "1.5em", color: "#a7a7a7" }}>♫</div>
       </div>
-      <ProgressBar now={60} variant="danger" />
+      <div className="flex-grow-1 text-white song-info">
+        <p className="mb-0 small text-truncate">Titolo della canzone</p>
+        <p className="mb-0 small text-secondary text-truncate">
+          Nome dell'artista
+        </p>
+      </div>
+      <div className="controls d-flex align-items-center">
+        <div
+          style={{
+            fontSize: "1.8em",
+            color: "white",
+            marginLeft: "8px",
+            marginRight: "8px",
+          }}
+        >
+          &#x25BA;
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Player;
+export default MusicPlayer;

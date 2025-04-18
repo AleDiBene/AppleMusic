@@ -57,3 +57,15 @@
 .text-custom {
   color: #f85769;
 }
+
+/* MusicPlayer.css */
+.album-art {
+  width: 40px;
+  height: 40px;
+  background-color: #282828;
+}
+
+.song-info p {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
