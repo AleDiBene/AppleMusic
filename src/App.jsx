@@ -7,6 +7,7 @@ import NuoviEpisodiRadio from "./components/NuoviEpisodiRadio";
 import NuoveUscite from "./components/NuoveUscite";
 import NavbarDesktop from "./components/NavbarDesktop";
 import AltroDaEsplorare from "./components/AltroDaEsplorare";
+import FooterCustom from "./components/FooterCustom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -38,6 +39,7 @@ function App() {
               <NuoviEpisodiRadio />
               <NuoveUscite />
               <AltroDaEsplorare />
+              <FooterCustom />
             </Col>
           </Row>
         </Container>
