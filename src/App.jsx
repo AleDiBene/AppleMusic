@@ -23,10 +23,7 @@ function App() {
         <Container fluid className="p-0">
           <Row className="g-0">
             {/* SIDEBAR - solo su desktop */}
-            <Col
-              md={2}
-              className="d-none d-md-block bg-dark text-white vh-100 p-3"
-            >
+            <Col md={2} className="d-none d-md-block bg-dark text-white p-3 ">
               <Sidebar />
             </Col>
 
