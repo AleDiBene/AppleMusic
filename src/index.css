@@ -1,0 +1,28 @@
+.icon-color {
+  fill: #f85769;
+}
+
+.search-bar {
+  background-color: #343a40;
+  border: 1px solid #979798;
+  border-radius: 5px;
+}
+
+.search-bar .form-control {
+  background-color: #343a40;
+  border: none;
+  color: #979798;
+}
+
+.search-bar .input-group-text {
+  background-color: #343a40;
+  border: none;
+  color: #f85769;
+}
+
+.logo-white {
+  fill: white;
+}
+.sidebar-border {
+  border-right: 2px solid #444; /* Grigio scuro, puoi cambiare il colore */
+}
