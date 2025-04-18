@@ -4,7 +4,9 @@ import NavbarMobile from "./components/NavbarMobile";
 import Player from "./components/Player";
 import News from "./components/News";
 import NuoviEpisodiRadio from "./components/NuoviEpisodiRadio";
+import NuoveUscite from "./components/NuoveUscite";
 import NavbarDesktop from "./components/NavbarDesktop";
+import AltroDaEsplorare from "./components/AltroDaEsplorare";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -34,6 +36,8 @@ function App() {
               </div>
               <News />
               <NuoviEpisodiRadio />
+              <NuoveUscite />
+              <AltroDaEsplorare />
             </Col>
           </Row>
         </Container>

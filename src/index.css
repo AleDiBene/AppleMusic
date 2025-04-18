@@ -24,5 +24,36 @@
   fill: white;
 }
 .sidebar-border {
-  border-right: 2px solid #444; /* Grigio scuro, puoi cambiare il colore */
+  border-right: 2px solid #444;
+}
+
+/* NuoveUscite.css */
+.card-uscita {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bg-dark-secondary {
+  background-color: #343a40;
+}
+
+.card-uscita .p-2 p.small {
+  color: white;
+}
+
+/* AltroDaEsplorare.css */
+.bg-dark-secondary {
+  background-color: #343a40;
+}
+
+.item-esplora {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-esplora:hover {
+  background-color: #444c56;
+}
+
+.text-custom {
+  color: #f85769;
 }
